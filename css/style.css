@@ -1,29 +1,24 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+.sender-column {
+  text-align: right;
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+h1 {
+  font-size: 1.5em;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+h2 {
+  font-size: 1.3em;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+p,ul,ol,dl,address {
+  font-size: 1.1em;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+p, li, dd, dt, address {
+  line-height: 1.5;
 }
